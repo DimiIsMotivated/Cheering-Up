@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+p {
+  font-family: "Arial", sans-serif;
+  font-size: 25px;
+  position: relative;
+  left: 20px;
+  top: 0;
+  padding: 0;
+}
+
+.button {
+  background-color: yellow;
+  border: 2px solid black;
+  color: black;
+  display: block;
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+  margin: auto;
+  padding: 15px 32px;
+  text-decoration: none;
+}
+
+.dialog {
+  text-align: center;
+}
+
+.show__menu {
+  transform: translateX(200px);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a:link,
+a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #EE82EE;
+  position: absolute;
+  top: -21px;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  transform: translateX(-100%);
+}
+
+nav li {
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero .hero__menu {
+  font-size: 16px;
+  cursor: pointer;
+  border: 0;
+  background-color: #EE82EE;
+  color: #000000;
+  padding: 10px 20px;
+  position: relative;
+  top: -80px;
+  left: 20px;
+  outline: none;
+  transition: background-color 0.2s;
+}
+
+
+
+header button:hover,
+.hero .hero__menu:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
